@@ -1,0 +1,5 @@
+- insert:
+    - id: dsh-break-glass-settlement-proof
+      name: dsh-break-glass-settlement-proof
+      config:
+        workspaceRoot: .

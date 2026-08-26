@@ -1,0 +1,20 @@
+{
+  "name": "dsh-break-glass-settlement-proof",
+  "version": "0.1.0",
+  "description": "Offline proof that supplied emergency-access evidence closes a bounded session and its declared grants",
+  "author": { "name": "dongsheng123132" },
+  "homepage": "https://github.com/dongsheng123132/dsh-break-glass-settlement-proof",
+  "repository": "https://github.com/dongsheng123132/dsh-break-glass-settlement-proof",
+  "license": "MIT",
+  "keywords": ["deepseek-harness", "dsh", "break-glass", "emergency-access", "evidence"],
+  "interface": {
+    "displayName": "DSH Break Glass Settlement Proof",
+    "shortDescription": "Verify supplied emergency-access closure.",
+    "longDescription": "Checks a bounded emergency session, allowlisted action receipts, declared grant revocations, observer diversity and fresh closure without granting access or querying live identity systems.",
+    "developerName": "dongsheng123132",
+    "category": "Developer Tools",
+    "capabilities": ["MCP tools", "DSH tools", "offline verification"],
+    "defaultPrompt": "Verify this explicit break-glass settlement without granting access or querying live identity infrastructure."
+  },
+  "mcpServers": "./.mcp.json"
+}

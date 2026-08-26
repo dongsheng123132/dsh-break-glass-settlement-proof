@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "proofId": "break-glass-prod-20260826",
+  "evaluationTime": "2026-08-26T12:00:00.000Z",
+  "session": {
+    "sessionIdHash": "1111111111111111111111111111111111111111111111111111111111111111",
+    "emergencyRequestSha256": "2222222222222222222222222222222222222222222222222222222222222222",
+    "approvalReceiptSha256": "3333333333333333333333333333333333333333333333333333333333333333",
+    "principalBindingSha256": "4444444444444444444444444444444444444444444444444444444444444444",
+    "incidentSha256": "5555555555555555555555555555555555555555555555555555555555555555",
+    "policySha256": "6666666666666666666666666666666666666666666666666666666666666666",
+    "requestedAt": "2026-08-26T08:00:00.000Z",
+    "activatedAt": "2026-08-26T08:05:00.000Z",
+    "expiresAt": "2026-08-26T10:05:00.000Z",
+    "terminatedAt": "2026-08-26T09:20:00.000Z"
+  },
+  "policy": {
+    "maxSessionMs": 7200000,
+    "maxEvidenceAgeMs": 86400000,
+    "minDistinctObservers": 3,
+    "allowedActionIdHashes": [
+      "7777777777777777777777777777777777777777777777777777777777777777",
+      "8888888888888888888888888888888888888888888888888888888888888888"
+    ],
+    "allowedResourceHashes": [
+      "9999999999999999999999999999999999999999999999999999999999999999",
+      "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    ]
+  },
+  "actions": [
+    {
+      "sequence": 1,
+      "actionReceiptSha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "sessionIdHash": "1111111111111111111111111111111111111111111111111111111111111111",
+      "principalBindingSha256": "4444444444444444444444444444444444444444444444444444444444444444",
+      "actionIdHash": "7777777777777777777777777777777777777777777777777777777777777777",
+      "resourceHash": "9999999999999999999999999999999999999999999999999999999999999999",
+      "observerHash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "occurredAt": "2026-08-26T08:20:00.000Z"
+    },
+    {
+      "sequence": 2,
+      "actionReceiptSha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "sessionIdHash": "1111111111111111111111111111111111111111111111111111111111111111",
+      "principalBindingSha256": "4444444444444444444444444444444444444444444444444444444444444444",
+      "actionIdHash": "8888888888888888888888888888888888888888888888888888888888888888",
+      "resourceHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "observerHash": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "occurredAt": "2026-08-26T09:00:00.000Z"
+    }
+  ],
+  "grants": [
+    {
+      "grantIdHash": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "scopeHash": "abababababababababababababababababababababababababababababababab",
+      "sessionIdHash": "1111111111111111111111111111111111111111111111111111111111111111",
+      "principalBindingSha256": "4444444444444444444444444444444444444444444444444444444444444444",
+      "grantReceiptSha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "revocationReceiptSha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "observerHash": "dededededededededededededededededededededededededededededededede",
+      "grantedAt": "2026-08-26T08:05:00.000Z",
+      "revokedAt": "2026-08-26T09:25:00.000Z"
+    }
+  ],
+  "closure": {
+    "terminationReceiptSha256": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef",
+    "sessionIdHash": "1111111111111111111111111111111111111111111111111111111111111111",
+    "principalBindingSha256": "4444444444444444444444444444444444444444444444444444444444444444",
+    "observerHash": "f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+    "residualGrantCount": 0,
+    "observedAt": "2026-08-26T09:30:00.000Z"
+  }
+}
