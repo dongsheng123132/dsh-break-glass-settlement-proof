@@ -1,5 +1,7 @@
 # dsh-break-glass-settlement-proof
 
+作者 / 维护者：贺去病（贺方升 / Dosen）· [hequbing.com](https://www.hequbing.com)
+
 这是一个离线、确定性的 DSH 证据层，只回答一个窄问题：**显式提供的紧急访问会话，是否在声明寿命内闭合，只包含 allowlist 中的动作/资源回执，并在新鲜的 closure 观察前撤销全部已声明授权？**
 
 同一个无界面核心同时提供 DSH bundle、独立 MCP stdio、JavaScript API 和 CLI；报告脱敏、内容寻址，并在写后回读。
