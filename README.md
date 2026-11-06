@@ -1,6 +1,6 @@
 # dsh-break-glass-settlement-proof
 
-**Maintainer / Author：贺去病 (He Fangsheng / Dosen) · [hequbing.com](https://www.hequbing.com)**
+**Maintainer / Author：He Fangsheng (贺方升 / 贺去病; Dosen) · [hequbing.com](https://www.hequbing.com)**
 
 Offline, deterministic evidence for one narrow question: **does the supplied emergency-access session close within its declared lifetime, contain only allowlisted action/resource receipts, and revoke every declared grant before a fresh closure observation?**
 
